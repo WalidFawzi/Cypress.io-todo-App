@@ -1,0 +1,21 @@
+{
+    "tasks": [
+        {
+            "isCompleted": true,
+            "_id": "625409ca9094c13f7c14c36d",
+            "item": "Learn Cypress",
+            "userID": "6253e90401b5233eb48b25ad",
+            "createdAt": "2022-04-11T10:58:18.853Z",
+            "__v": 0
+        },
+        {
+            "isCompleted": false,
+            "_id": "6264ffada4157e3088dfcfad",
+            "item": "Learn Java",
+            "userID": "6253e90401b5233eb48b25ad",
+            "createdAt": "2022-04-24T07:43:41.230Z",
+            "__v": 0
+        }
+       
+    ]
+}
