@@ -2,7 +2,7 @@ import { faker } from '@faker-js/faker';
 
 describe('Check all the register API test cases', () => {
 
-    it.only('should return error if the email not a port of the body', () => {
+    it('should return error if the email not a port of the body', () => {
         cy.request({
             url: 'http://localhost:8080/api/v1/users/login',
             method: 'POST',
@@ -16,7 +16,7 @@ describe('Check all the register API test cases', () => {
         })
     })
 
-    it.only('should return error if the password not entered', () => {
+    it('should return error if the password not entered', () => {
         cy.request({
             url: 'http://localhost:8080/api/v1/users/login',
             method: 'POST',
@@ -30,7 +30,7 @@ describe('Check all the register API test cases', () => {
         })
     })
 
-    it.only('Status code should be OK if all the data is correct and login with valid crednetials', () => {
+    it('Status code should be OK if all the data is correct and login with valid crednetials', () => {
         cy.request({
             url: 'http://localhost:8080/api/v1/users/login',
             method: 'POST',
@@ -43,7 +43,7 @@ describe('Check all the register API test cases', () => {
         })
     })
 
-    it.only('should return error if login with invalid credentials', () => {
+    it('should return error if login with invalid credentials', () => {
         cy.request({
             url: 'http://localhost:8080/api/v1/users/login',
             method: 'POST',
@@ -58,7 +58,7 @@ describe('Check all the register API test cases', () => {
         })
     })
 
-    it.only('should return error if login with valid email and invalid password', () => {
+    it('should return error if login with valid email and invalid password', () => {
         cy.request({
             url: 'http://localhost:8080/api/v1/users/login',
             method: 'POST',
