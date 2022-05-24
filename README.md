@@ -1,6 +1,6 @@
 # Cypress.io-todo-App
-## Practice cypress.io on a To-do App/
-#### Divide the frameworks to the below cases/
+## Practice cypress.io on a To-do App
+#### Divide the frameworks to the below cases
   *UI\
   *E2E\
   *API
